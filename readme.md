@@ -1,7 +1,9 @@
 # Lepton Grabber #
 
 ## Objective ##
-This code upon execution captures Y16 pixelformat images from multiple leptons sensor based boards near simultaneously.
+This code captures selected frames from video streams from multiple leptons sensor based boards near simultaneously.
+The frames are captured in Y16 format from Leptons that are preconfigured in radiometric mode.
+At startup, the code discovers all lepton boards connected to USB ports.
 
 ## Dependencies ##
 ### Python ###
